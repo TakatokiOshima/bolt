@@ -13,6 +13,7 @@ body {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .inner{
@@ -36,9 +37,7 @@ body {
 }
 
 .header-inner-text{
-  background-color: #74cfae;
   float: right;
-  padding: 14px 12px;
   text-align: center;
 }
 
@@ -57,10 +56,12 @@ body {
 }
 
 .header-inner-button{
+  background-color: #74cfae;
+  padding: 14px 12px;
   transition: all 0.3s;
 }
 
-.button-init:hover {
+.header-inner-button:hover{
   color: #333;
 }
 
@@ -187,12 +188,8 @@ body {
 
 .article-inner-foot-button{
   display: table-cell;
-  width: 120px;
-}
-
-.right-box-button {
-  background-color: #74cfae;
-  text-align: center;
+  width: 95px;
+  vertical-align: middle;
 }
 
 .article-inner-foot-text {
@@ -204,8 +201,13 @@ body {
 
 .article-foot-button {
   background-color: #74cfae;
-  text-align: center;
   padding: 14px 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.article-foot-button:hover {
+  color: #333;
 }
 
 .bottom_section {
