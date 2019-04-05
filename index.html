@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<!-- TODO: -->
+<!--  ボタンもaタグを使う -->
+<!--  ホバーで見た目変える -->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -19,7 +24,7 @@
     <div class="inner header-inner">
       <i class="fas fa-bolt fa-4x header-inner-bolt"></i>
       <div class="header-inner-text">
-        <button type="submit" class="button-init header-inner-button">Contact</button>
+        <button type="submit" class="subtitle button-init header-inner-button">Contact</button>
       </div>
     </div>
   </header>
@@ -36,9 +41,7 @@
           <img src="img/iphone.png" alt="ipohne">
         </div>
         <div class="up_section-inner-content">
-          <!-- フォントがイメージと違う. Lato も Ralwayも試してはみた -->
-          <h1 class="up_section-content-title">WHAT WE CAN DO?</h1>
-          <!-- 改行の仕方がイメージと違う -->
+          <h1 class="subtitle up_section-content-title">WHAT WE CAN DO?</h1>
           <a class="up_section-content-sub">Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a typespecimen book.</a>
 
         </div>
@@ -47,8 +50,7 @@
     <article class="article">
       <div class="inner article-inner">
         <div class="article-inner-title">
-          <!-- ここも WHAT WE... と同じフォントになってない -->
-          <h1>OUR LATEST WORK</h1>
+          <h1 class="subtitle">OUR LATEST WORK</h1>
         </div>
         <div class="article-inner-contnet">
           <div class="article-inner-content-img"><img src="img/01.jpg" alt="image01"></div>
@@ -60,17 +62,19 @@
         </div>
       </div>
       <div class="inner article-inner-foot">
+
+        <!-- ここの周りこみと中央寄せ直す -->
         <div class="article-inner-foot-content">
-          <a class="article-inner-foot-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever.</a>
+          <a class="article-inner-foot-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</a>
         </div>
-        <div class="article-inner-foot-content">
-          <button type="submit" class="button-init article-foot-button">Email Me!</button>
+        <div class="article-inner-foot-button">
+          <button type="submit" class="subtitle button-init article-foot-button">Email Me!</button>
         </div>
       </div>
     </article>
     <section class="bottom_section">
       <div class="inner bottom_section-inner">
-        <h1 class="bottom_section-inner-title">OUR SKILLS</h1>
+        <h1 class="subtitle bottom_section-inner-title">OUR SKILLS</h1>
         <div class="bottom_section-inner-content">
           <div class="bottom_section-inner-img">
             <img src="img/circle_01.png" alt="circle_01">
@@ -91,9 +95,29 @@
         </div>
       </div>
     </section>
+    <nav class="nav">
+      <div class="inner nav-inner">
+        <div class="nav-inner-content">
+          <i class="nav-inner-content-icon fab fa-facebook-f fa-4x"></i>
+        </div>
+        <div class="nav-inner-content">
+          <i class="nav-inner-content-icon fab fa-xbox fa-4x"></i>
+        </div>
+        <div class="nav-inner-content">
+          <i class="nav-inner-content-icon fab fa-twitter fa-4x"></i>
+        </div>
+        <div class="nav-inner-content">
+          <i class="nav-inner-content-icon fas fa-envelope fa-4x"></i>
+        </div>
+      </div>
+    </nav>
   </main>
   <footer class="footer">
-    <div class="inner"></div>
+    <div class="inner footer-inner">
+      <a class="footer-inner-text">by BlackTie.co.</a>
+      <i class="footer-inner-text fas fa-heart"></i>
+      <a class="footer-inner-text">Crafted with</a>
+    </div>
   </footer>
   </body>
 </html>
