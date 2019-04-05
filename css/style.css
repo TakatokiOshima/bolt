@@ -38,11 +38,11 @@ body {
 .header-inner-text{
   background-color: #74cfae;
   float: right;
+  padding: 14px 12px;
   text-align: center;
 }
 
 .button-init {
-  appearance: none;
   background: none;
   border: none;
   border-radius: 0;
@@ -51,12 +51,12 @@ body {
   font-size: 12px;
   line-height: 26px;
   outline: none;
+  text-decoration: none;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
 .header-inner-button{
-  padding: 14px 12px;
   transition: all 0.3s;
 }
 
@@ -107,7 +107,7 @@ body {
 .up_section-inner-img {
   box-sizing: border-box;
   float: left;
-  padding-left: 200px;
+  text-align: center;
   width: 550px;
 }
 
@@ -133,21 +133,21 @@ body {
 
 .article {
   background-color: #f2f2f2;
-  padding-bottom: 70px;
   width: 100%;
 }
 
 .article-inner {
-  padding: 60px 0 90px;
+  padding: 60px 0 70px;
 }
 
 .article-inner-title {
   text-align: center;
   color: #333;
+  margin-bottom: 40px;
 }
 
-.article-inner-contnet {
-  padding-top: 40px;
+.article-inner-contnet{
+  margin-bottom: 90px;
 }
 
 .article-inner-contnet::after {
@@ -178,12 +178,6 @@ body {
 .article-inner-foot{
   display: table;
   padding: 0 180px;
-}
-
-.article-inner-foot::after{
-  content: '';
-  display: block;
-  clear: both;
 }
 
 .article-inner-foot-content{
