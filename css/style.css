@@ -198,17 +198,8 @@ body {
 
 .article-inner-foot-button{
   display: table-cell;
-<<<<<<< HEAD
   width: 99px;
   vertical-align: middle;
-=======
-  width: 120px;
-}
-
-.right-box-button {
-  background-color: #74cfae;
-  text-align: center;
->>>>>>> c15ac395f90fb40f3126b7f9cad42064f6a99d75
 }
 
 .article-inner-foot-text {
@@ -320,7 +311,7 @@ body {
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
   /* ウインドウ幅が1199px以下のときに適応 */
   .subtitle {
     font-family: 'Raleway';
