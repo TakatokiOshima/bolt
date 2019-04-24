@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-<!-- TODO: -->
-<!--  ボタンもaタグを使う -->
-<!--  ホバーで見た目変える -->
-
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,58 +17,55 @@
   <body>
 
   <header class="header">
-    <div class="inner header-inner">
-      <i class="fas fa-bolt fa-4x header-inner-bolt"></i>
+    <div class="inner header-inner clearfix">
+      <i class="fas fa-bolt fa-3x header-inner-bolt"></i>
       <div class="header-inner-text">
-        <button type="submit" class="subtitle button-init header-inner-button">Contact</button>
+        <a href="" class="subtitle header-inner-button">Contact</a>
       </div>
-      <div id="nav-drawer">
-        <label id="nav-open" for="nav-input"><span></span></label>
-        <div id="nav-content"><!--ここに中身を入れる--></div>
+      <div class="header-menue">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-    </div>
   </header>
-  <main>
+  <main class="main">
     <div class="title">
       <div class="inner title-inner">
-        <div class="title-inner-theme">Bolt Theme</div>
-        <h2 class="title-inner-sub">FREE BOOSTRAP THEMES</h2>
+        <h1 class="title-inner-theme">Bolt Theme</h1>
+        <p class="title-inner-sub">FREE BOOSTRAP THEMES</p>
       </div>
     </div>
     <section class="up_section">
-      <div class="inner up_section-inner">
+      <div class="inner up_section-inner clearfix">
         <div class="up_section-inner-img">
           <img src="img/iphone.png" alt="ipohne">
         </div>
         <div class="up_section-inner-content">
-          <h1 class="subtitle up_section-content-title">WHAT WE CAN DO?</h1>
-          <a class="up_section-content-sub">Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a typespecimen book.</a>
-
+          <h2 class="subtitle up_section-content-title">WHAT WE CAN DO?</h2>
+          <p class="up_section-content-sub">Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sstandard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a typespecimen book.</p>
         </div>
       </div>
     </section>
     <article class="article">
       <div class="inner article-inner">
         <div class="article-inner-title">
-          <h1 class="subtitle">OUR LATEST WORK</h1>
+          <h2 class="subtitle">OUR LATEST WORK</h2>
         </div>
-        <div class="article-inner-contnet">
-          <div class="article-inner-content-img"><img src="img/01.jpg" alt="image01"></div>
-          <div class="article-inner-content-img"><img src="img/02.jpg" alt="image02"></div>
-          <div class="article-inner-content-img"><img src="img/03.jpg" alt="image03"></div>
-          <div class="article-inner-content-img"><img src="img/04.jpg" alt="image04"></div>
-          <div class="article-inner-content-img"><img src="img/05.jpg" alt="image05"></div>
-          <div class="article-inner-content-img"><img src="img/06.jpg" alt="image06"></div>
+        <div class="article-inner-contnet clearfix">
+          <a href="" class="article-inner-content-img"><img src="img/01.jpg" alt="image01"></a>
+          <a href="" class="article-inner-content-img"><img src="img/02.jpg" alt="image02"></a>
+          <a href="" class="article-inner-content-img"><img src="img/03.jpg" alt="image03"></a>
+          <a href="" class="article-inner-content-img"><img src="img/04.jpg" alt="image04"></a>
+          <a href="" class="article-inner-content-img"><img src="img/05.jpg" alt="image05"></a>
+          <a href="" class="article-inner-content-img"><img src="img/06.jpg" alt="image06"></a>
         </div>
-      </div>
-      <div class="inner article-inner-foot">
-
-        <!-- ここの周りこみと中央寄せ直す -->
-        <div class="article-inner-foot-content">
-          <a class="article-inner-foot-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</a>
-        </div>
-        <div class="article-inner-foot-button">
-          <button type="submit" class="subtitle button-init article-foot-button">Email Me!</button>
+        <div class="article-inner-foot">
+          <div class="article-inner-description">
+            <p class="article-inner_text">Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          </div>
+          <div class="article-inner-button">
+            <a href="" class="article-inner_contact">Email Me!</a>
+          </div>
         </div>
       </div>
     </article>
@@ -80,7 +73,7 @@
       <div class="inner bottom_section-inner">
         <h1 class="subtitle bottom_section-inner-title">OUR SKILLS</h1>
         <div class="bottom_section-inner-content">
-          <div class="bottom_section-inner-img">
+          <div class="bottom_section-inner-img ">
             <img src="img/circle_01.png" alt="circle_01">
             <a class="bottom_section-inner-text">JavaScript</a>
           </div>
@@ -101,29 +94,18 @@
     </section>
     <nav class="nav">
       <div class="inner nav-inner">
-        <div class="nav-inner-content">
-          <div class="nav-inner-content-img">
-              <i class="nav-inner-content-icon fab fa-facebook-f fa-4x"></i>
-            </div>
-            <div class="nav-inner-content-img">
-              <i class="nav-inner-content-icon fab fa-xbox fa-4x"></i>
-            </div>
-            <div class="nav-inner-content-img">
-              <i class="nav-inner-content-icon fab fa-twitter fa-4x"></i>
-            </div>
-            <div class="nav-inner-content-img">
-              <i class="nav-inner-content-icon fas fa-envelope fa-4x"></i>
-            </div>
-        </div>
-
+        <a href="" class="nav-inner-content"><i class="fab fa-facebook-f fa-4x"></i></a>
+        <a href="" class="nav-inner-content"><i class="fab fa-xbox fa-4x"></i></a>
+        <a href="" class="nav-inner-content"><i class="fab fa-twitter fa-4x"></i></a>
+        <a href="" class="nav-inner-content"><i class="fas fa-envelope fa-4x"></i></a>
       </div>
     </nav>
   </main>
   <footer class="footer">
     <div class="inner footer-inner">
-      <a class="footer-inner-text">by BlackTie.co.</a>
-      <i class="footer-inner-text fas fa-heart"></i>
-      <a class="footer-inner-text">Crafted with</a>
+      <p class="footer-inner-text">
+        Crafted with<i class="fas fa-heart"></i>by BlackTie.co.
+      </p>
     </div>
   </footer>
   </body>
