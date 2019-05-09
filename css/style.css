@@ -123,11 +123,10 @@ body {
 
 .article {
   background-color: #f2f2f2;
-  padding-bottom: 70px;
 }
 
 .article-inner {
-  padding: 60px 0 90px;
+  padding: 60px 0 70px;
 }
 
 .article-inner-title {
