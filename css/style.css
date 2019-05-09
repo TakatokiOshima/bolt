@@ -15,6 +15,8 @@ body {
   font-size: 24px;
 }
 
+/* ---------- ここからPC ---------- */
+
 @media screen and (min-width: 1200px){
 /* ウインドウ幅が1200px以上のときに適応 */
 
@@ -61,7 +63,7 @@ body {
 }
 
 .main {
-  padding-top: 93px;
+  padding-top: 77px;
 }
 
 .title {
@@ -313,6 +315,10 @@ body {
   color: #333;
 }
 
+.main {
+  padding-top: 77px;
+}
+
 .title {
   background-color: #f2f2f2;
 }
@@ -540,13 +546,16 @@ body {
   margin: 5px 0;
 }
 
+.main {
+  padding-top: 77px;
+}
 
 .title {
   background-color: #f2f2f2;
 }
 
 .title-inner{
-  padding: 250px 0 130px;
+  padding: 160px 0 130px;
   text-align: center;
 }
 
