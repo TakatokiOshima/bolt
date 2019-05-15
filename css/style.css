@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  font-family: 'Lato','Raleway';
+  font-family: 'Lato';
 }
 
 img {
@@ -14,15 +14,13 @@ img {
   display: block;
 }
 
-.subtitle {
+.is-raleway {
   font-family: 'Raleway';
-  font-size: 24px;
 }
 
-/* ---------- ここからPC ---------- */
-
-@media screen and (min-width: 1200px){
-/* ウインドウ幅が1200px以上のときに適応 */
+.subtitle {
+  font-size: 24px;
+}
 
 .header {
   background-color: #fff;
@@ -33,7 +31,6 @@ img {
 
 .inner{
   margin: 0 auto;
-  width: 1100px;
 }
 
 .header-inner{
@@ -42,6 +39,10 @@ img {
 
 .header-inner-bolt{
   float: left;
+}
+
+.main {
+  padding-top: 77px;
 }
 
 .header-inner-text::before {
@@ -64,249 +65,6 @@ img {
 
 .header-inner-button:hover {
   color: #333;
-}
-
-.main {
-  padding-top: 77px;
-}
-
-.title {
-  background-color: #f2f2f2;
-}
-
-.title-inner{
-  padding: 250px 0;
-  text-align: center;
-}
-
-.title-inner-theme {
-  color: #74cfae;
-  font-size: 90px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.title-inner-sub {
-  color: #c0c0c0;
-  font-size: 30px;
-}
-
-.up_section {
-  background-color: #74cfae;
-}
-
-.up_section-inner{
-  padding-top: 50px;
-}
-
-.up_section-inner-img {
-  float: left;
-  text-align: center;
-  width: 400px;
-}
-
-.up_section-inner-content {
-  float: left;
-  text-align: center;
-  width: 700px;
-}
-
-.up_section-content-title{
-  color: #fff;
-  margin-bottom: 35px;
-}
-
-.up_section-content-sub{
-  color: #fff;
-  font-size: 20px;
-  font-family: 'Lato';
-  white-space: pre-wrap;
-}
-
-.article {
-  background-color: #f2f2f2;
-}
-
-.article-inner {
-  padding: 60px 0 70px;
-}
-
-.article-inner-title {
-  text-align: center;
-  color: #333;
-  margin-bottom: 40px;
-}
-
-.article-inner-content {
-  padding-top: 40px;
-}
-
-.article-inner-content-img {
-  float: left;
-  margin-left:100px;
-  opacity: 0.7;
-  transition: all 0.3s;
-}
-
-.article-inner-content-img:hover{
-  opacity: 1;
-}
-
-.article-inner-content-img:nth-child(3n+1) {
-  margin-left: 0;
-}
-
-.article-inner-content-img:nth-child(n+4) {
-  margin-top: 80px;
-}
-
-.article-inner-foot{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 90px;
-}
-
-.article-inner-description{
-  margin-right: 90px;
-  width: 580px;
-}
-
-.article-inner_text{
-  color: #333;
-  font-size: 20px;
-  text-align: center;
-}
-
-.article-inner_contact{
-  background-color: #74cfae;
-  color: #ffffff;
-  font-size: 12px;
-  padding: 14px 20px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.article-inner_contact:hover{
-  color: #333333;
-}
-
-.bottom_section {
-  background-color: #4e4e4e;
-}
-
-.bottom_section-inner{
-  padding: 70px 0 100px;
-  text-align: center;
-}
-
-.bottom_section-inner-title{
-  color: #ffffff;
-  margin-bottom: 60px;
-}
-
-.bottom_section-inner-content{
-  display: flex;
-  justify-content: center;
-}
-
-.bottom_section-inner-img {
-  margin-left: 180px;
-}
-
-.bottom_section-inner-img:first-child{
-  margin-left: 0;
-}
-
-.bottom_section-inner-text{
-  color: #ffffff;
-  font-size: 16px;
-}
-
-.nav{
-  background-color: #f2f2f2;
-}
-
-.nav-inner{
-  padding: 200px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-inner-content{
-  color: #74cfae;
-  text-align: center;
-  transition: all 0.3s;
-  width: 185px;
-}
-
-.nav-inner-content:hover{
-  background-color: #ffffff;
-}
-
-.footer{
-  background-color: #74cfae;
-}
-
-.footer-inner{
-  padding: 20px 0 25px 0;
-}
-
-.footer-inner-text{
-  color: #ffffff;
-  text-align: right;
-}
-
-}
-
-/* ---------- ここまでPC  ここからTB ---------- */
-
-@media screen and (min-width: 768px) and (max-width: 1199px){
-/* ウインドウ幅が768px以上,1200未満のときに適応 */
-  
-  
-.header {
-  background-color: #fff;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
-.inner{
-  margin: 0 auto;
-  width: 700px;
-}
-
-.header-inner{
-  padding: 15px 0;
-}
-
-.header-inner-bolt{
-  float: left;
-}
-
-.header-inner-text{
-  float: right;
-  height: 66px;
-  line-height: 66px;
-}
-
-.header-inner-button{
-  background-color: #74cfae;
-  color: #ffffff;
-  font-size: 12px;
-  padding: 14px 12px;
-  text-decoration: none;
-  transition: all 0.3s;
-  vertical-align: middle;
-}
-
-.header-inner-button:hover{
-  color: #333;
-}
-
-.main {
-  padding-top: 77px;
 }
 
 .title {
@@ -343,13 +101,9 @@ img {
   text-align: center;
 }
 
-.up_section-inner-content {
-  margin: 0 auto;
-  text-align: center;
-}
-
 .up_section-content-title{
   color: #fff;
+  text-align: center;
   margin-bottom: 35px;
 }
 
@@ -358,6 +112,11 @@ img {
   font-size: 20px;
   font-family: 'Lato';
   white-space: pre-wrap;
+  text-align: center;
+}
+
+.up_section-inner-content {
+  text-align: center;
 }
 
 .article {
@@ -388,18 +147,10 @@ img {
   opacity: 1;
 }
 
-.article-inner-content-img:nth-child(3n+3) {
-  margin-bottom: 80px;
-}
-
-.article-inner-foot{
- margin-bottom: 40px;
- text-align: center;
-}
-
 .article-inner_text{
- color: #333;
- font-size: 20px;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
 }
 
 .article-inner-button{
@@ -407,17 +158,17 @@ img {
   margin-top: 54px; 
 }
 
-.article-inner_contact {
-  color: #ffffff;
+.article-inner_contact{
   background-color: #74cfae;
+  color: #ffffff;
+  font-size: 12px;
   padding: 14px 20px;
-  text-align: center;
   text-decoration: none;
   transition: all 0.3s;
 }
 
-.article-inner_contact:hover {
-  color: #333;
+.article-inner_contact:hover{
+  color: #333333;
 }
 
 .bottom_section {
@@ -428,19 +179,10 @@ img {
   padding: 70px 0 100px;
   text-align: center;
 }
-
+ 
 .bottom_section-inner-title{
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 20px;
-}
-
-.bottom_section-inner-img {
-  margin: 0 auto;
-  margin-bottom: 88px;
-}
-
-.bottom_section-inner-img:nth-child(4n){
-  margin-bottom: 0;
 }
 
 .bottom_section-inner-text{
@@ -453,19 +195,21 @@ img {
 }
 
 .nav-inner{
+  padding: 200px 0;
   display: flex;
-  padding: 200px;
+  justify-content: center;
 }
 
 .nav-inner-content{
   color: #74cfae;
+  display: block;
+  padding: 20px 0;
   text-align: center;
   transition: all 0.3s;
-  width: 185px;
 }
 
 .nav-inner-content:hover{
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .footer{
@@ -481,31 +225,124 @@ img {
   text-align: right;
 }
 
-}
-
-/* -------------------- ここまでTB  ここからSP -------------------- */
-
-@media screen and (max-width: 767px){
-/* ウインドウ幅が678未満のときに適応 */
-  
-.header {
-  background-color: #fff;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
+/* PC */
+@media screen and (min-width: 1200px){
 
 .inner{
+  width: 1100px;
+}
+
+.up_section-inner{
+  padding-bottom: 0;
+}
+
+.up_section-inner-img {
+  float: left;
+  margin-bottom: 0;
+  width: 400px;
+}
+
+.up_section-inner-content {
+  float: left;
+  width: 700px;
+}
+
+.article-inner-content {
+  padding-top: 40px;
+}
+
+.article-inner-content-img {
+  float: left;
+  margin-left:100px;
+}
+
+.article-inner-content-img:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.article-inner-content-img:nth-child(n+4) {
+  margin-top: 80px;
+}
+
+.article-inner-foot{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.article-inner-description{
+  margin-right: 90px;
+  width: 580px;
+}
+
+.article-inner-button{
+  margin-top: 0; 
+}
+
+.bottom_section-inner-title{
+  margin-bottom: 60px;
+}
+
+.bottom_section-inner-content{
+  display: flex;
+  justify-content: center;
+}
+
+.bottom_section-inner-img {
+  margin-left: 180px;
+}
+
+.bottom_section-inner-img:first-child{
+  margin-left: 0;
+}
+
+.nav-inner{
+  justify-content: center;
+}
+
+}
+
+/* TB */
+@media screen and (min-width: 768px) and (max-width: 1199px){
+
+.inner{
+  width: 700px;
+}
+
+.up_section-inner-content {
   margin: 0 auto;
+}
+
+.article-inner-content-img:nth-child(3n+3) {
+  margin-bottom: 80px;
+}
+
+.article-inner-foot{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.bottom_section-inner-img {
+  margin: 0 auto;
+  margin-bottom: 88px;
+}
+
+.bottom_section-inner-img:nth-child(4n){
+  margin-bottom: 0;
+}
+
+}
+
+/* SP */
+@media screen and (max-width: 767px){
+
+.inner{
   width: 300px;
 }
 
-.header-inner{
-  padding: 15px 0;
-}
-
-.header-inner-bolt{
-  float: left;
+.title-inner{
+  padding: 160px 0 130px;
 }
 
 .header-inner-text{
@@ -537,171 +374,22 @@ img {
   margin: 5px 0;
 }
 
-.main {
-  padding-top: 77px;
-}
-
-.title {
-  background-color: #f2f2f2;
-}
-
-.title-inner{
-  padding: 160px 0 130px;
-  text-align: center;
-}
-
-.title-inner-theme {
-  color: #74cfae;
-  font-size: 80px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.title-inner-sub {
-  color: #c0c0c0;
-  font-size: 30px;
-}
-
-.up_section {
-  background-color: #74cfae;
-}
-
-.up_section-inner{
-  padding: 50px 0 25px;
-}
-
-.up_section-inner-img {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.up_section-content-title{
-  color: #fff;
-  text-align: center;
-  margin-bottom: 35px;
-}
-
-.up_section-content-sub{
-  color: #fff;
-  font-size: 20px;
-  font-family: 'Lato';
-  white-space: pre-wrap;
-}
-
-.article {
-  background-color: #f2f2f2;
-}
-
-.article-inner {
-  padding: 60px 0 70px;
-}
-
-.article-inner-title {
-  text-align: center;
-  color: #333;
-  margin-bottom: 40px;
-}
-
-.article-inner-contnet{
-  text-align: center;
-}
-
-.article-inner-content-img {
-  display: block;
-  opacity: 0.7;
-  transition: all 0.3s;
-}
-
-.article-inner-content-img:hover{
-  opacity: 1;
-}
-
 .article-inner-content-img:nth-child(3n+4) {
   margin-top: 80px;
 }
 
 .article-inner-foot{
- margin: 80px 0 40px;
- text-align: center;
-}
-
-.article-inner_text{
- color: #333;
- font-size: 20px;
-}
-
-.article-inner-button{
-  margin: 0 auto;
-  margin-top: 54px; 
-}
-
-.article-inner_contact {
-  color: #ffffff;
-  background-color: #74cfae;
-  padding: 14px 20px;
+  margin: 80px 0 40px;
   text-align: center;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.article-inner_contact:hover {
-  color: #333;
-}
-
-.bottom_section {
-  background-color: #4e4e4e;
-}
-
-.bottom_section-inner{
-  padding: 70px 0 100px;
-  text-align: center;
-}
-
-.bottom_section-inner-title{
-  color: #fff;
-  margin-bottom: 20px;
-}
-
+ }
+ 
 .bottom_section-inner-img {
   margin-bottom: 60px;
 }
 
-.bottom_section-inner-text{
-  color: #ffffff;
-  font-size: 16px;
-}
-
-.nav{
-  background-color: #f2f2f2;
-}
-
 .nav-inner{
-  padding: 50px 15px;
-}
-
-.nav-inner-content{
-  color: #74cfae;
   display: block;
-  padding: 20px 0;
-  text-align: center;
-  transition: all 0.3s;
-}
-
-.nav-inner-content:hover{
-  background-color: #fff;
-}
-
-.footer{
-  background-color: #74cfae;
-}
-
-.footer-inner{
-  padding: 20px 0 25px 0;
-}
-
-.footer-inner-text{
-  color: #ffffff;
-  text-align: right;
+  padding: 50px 15px;
 }
 
 }
