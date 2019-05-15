@@ -301,6 +301,10 @@ img {
   justify-content: center;
 }
 
+.nav-inner-content{
+  width: 185px;
+}
+
 }
 
 /* TB */
@@ -330,6 +334,10 @@ img {
 
 .bottom_section-inner-img:nth-child(4n){
   margin-bottom: 0;
+}
+
+.nav-inner-content{
+  width: 25%;
 }
 
 }
